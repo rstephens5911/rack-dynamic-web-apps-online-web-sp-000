@@ -13,6 +13,7 @@ class Application
       resp.write "You Win"
     else
       resp.write "You Lose."
+      call
     end
 
     resp.finish
